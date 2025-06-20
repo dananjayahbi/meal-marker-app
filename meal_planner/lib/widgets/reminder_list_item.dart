@@ -3,7 +3,6 @@ import 'package:provider/provider.dart';
 import '../models/meal_reminder.dart';
 import '../services/app_state_provider.dart';
 import '../utils/date_utils.dart' as meal_date_utils;
-import '../utils/constants.dart';
 
 class ReminderListItem extends StatelessWidget {
   final MealReminder reminder;

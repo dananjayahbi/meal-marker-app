@@ -4,7 +4,7 @@ import '../services/background_service.dart';
 class AppLifecycleObserver extends StatefulWidget {
   final Widget child;
   
-  const AppLifecycleObserver({Key? key, required this.child}) : super(key: key);
+  const AppLifecycleObserver({super.key, required this.child});
 
   @override
   AppLifecycleObserverState createState() => AppLifecycleObserverState();

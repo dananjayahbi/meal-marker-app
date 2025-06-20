@@ -4,7 +4,6 @@ import 'package:timezone/data/latest.dart' as tz_data;
 import 'package:timezone/timezone.dart' as tz;
 import 'package:flutter/foundation.dart' show kIsWeb;
 import '../models/meal_reminder.dart';
-import '../models/app_settings.dart';
 import '../services/settings_service.dart';
 import '../utils/constants.dart';
 

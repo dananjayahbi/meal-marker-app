@@ -8,9 +8,9 @@ class SettingsScreen extends StatefulWidget {
   final SettingsService settingsService;
 
   const SettingsScreen({
-    Key? key,
+    super.key,
     required this.settingsService,
-  }) : super(key: key);
+  });
 
   @override
   State<SettingsScreen> createState() => _SettingsScreenState();

@@ -1,10 +1,7 @@
 import 'dart:async';
-import 'dart:ui';
-import 'package:flutter/material.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 import '../models/meal_reminder.dart';
-import '../models/app_settings.dart';
 import '../services/settings_service.dart';
 import '../utils/constants.dart';
 import '../utils/hive_config.dart';

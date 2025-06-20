@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:hive/hive.dart';
 
 // Since we're using manual adapters, we don't need HiveType and HiveField annotations
 class AppSettings {

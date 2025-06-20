@@ -404,7 +404,7 @@ class ReminderDetailsScreen extends StatelessWidget {
                     Navigator.pop(context); // Close dialog
                     Navigator.pop(context); // Go back to previous screen
                   },
-                )).toList(),
+                )),
                 
                 // Infinite snooze option
                 ActionChip(
